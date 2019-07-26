@@ -1,0 +1,292 @@
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.swiper-container-wp8-horizontal, .swiper-container-wp8-horizontal>.swiper-wrapper {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform,-webkit-transform;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.swiper-slide {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform,-webkit-transform;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.our-causes .cause-wrap {
+    margin-top: 60px;
+}
+.cause-wrap {
+    margin-top: 50px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+.our-causes .cause-wrap figure {
+    position: relative;
+}
+.m-0 {
+    margin: 0!important;
+}
+figure {
+    margin: 0 0 1rem;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+
+.cause-wrap figure img {
+    display: block;
+    width: 100%;
+}
+img {
+    vertical-align: baseline;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.our-causes .cause-wrap figure .figure-overlay {
+    top: 0;
+    left: 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: rgba(0,0,0,.7);
+    transition: all .5s;
+}
+.h-100 {
+    height: 100%!important;
+}
+.w-100 {
+    width: 100%!important;
+}
+.position-absolute {
+    position: absolute!important;
+}
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+ .slider-holder
+        {
+            width: 100%;
+            height: 100%;
+           
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .image-holder
+        {
+            width: 5000px;
+            /*background-color: red;*/
+            height: 400px;
+            clear: both;
+            position: relative;
+            
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+        
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+            background-size: cover;
+        }
+        
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+        
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+        
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+        #slider-image-4:target ~ .image-holder
+        {
+            left: -2400;
+        }
+        
+        .button-holder
+        {
+            text-align: center;
+            position: relative;
+            top: -20px;
+        }
+        
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: brown;
+        }
+        .showSlide {  
+            display: none  
+        }  
+            .showSlide img {  
+                width: 100%;  
+            }  
+        .slidercontainer {  
+            /*max-width: 1000px; */ 
+            position: relative;  
+            margin: auto;  
+        }  
+        .left, .right {  
+            cursor: pointer;  
+            position: fixed;  
+            top: 80%;  
+            width: auto;  
+            padding: 16px;  
+            margin-top: -22px;  
+            color: white;  
+            font-weight: bold;  
+            font-size: 18px;  
+            transition: 0.6s ease;  
+            border-radius: 0 3px 3px 0;  
+        }  
+        .right {  
+            right: 0;  
+            border-radius: 3px 0 0 3px;  
+        }  
+            .left:hover, .right:hover {  
+                color: #2e319a;
+                background-color: #f1e200b0;  
+            }  
+        .content {  
+                color: #eff5d4;
+    font-size: 30px;
+    float: right;
+    background-color: #f1e200b0;
+    padding: 7px 46px;
+    position: fixed;
+    top: 12em;
+    font-weight: 900;
+    /* width: 100%; */
+    text-align: center;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; 
+        }  
+        .active {  
+            /*background-color: #717171;  */
+        }  
+        /* Fading animation */  
+        .fade {  
+            -webkit-animation-name: fade;  
+            -webkit-animation-duration: 1.5s;  
+            animation-name: fade;  
+            animation-duration: 1.5s;  
+        }  
+        @-webkit-keyframes fade {  
+            from {  
+                opacity: .4  
+            }  
+            to {  
+                opacity: 1  
+            }  
+        }  
+  
+        @keyframes fade {  
+            from {  
+                opacity: .4  
+            }  
+            to {  
+                opacity: 1  
+            }  
+        }  
+
+
